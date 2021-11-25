@@ -1,0 +1,51 @@
+
+{% extends 'temp/index.html' %}
+{% block base %}
+
+<center><h3>Shop registration</h3>
+<form  method="POST" >
+    {% csrf_token %}
+<font color="black">
+	<table>
+		<tr>
+         <td><font color="white">shop name</font></td>
+         <td><input type="text" name="sname" required ></td>
+</tr>
+<tr>
+	<td><font color="white">adress</font></td>
+	<td><textarea name="add" required></textarea >
+	</td>
+</tr>
+<tr>
+	<td><font color="white">owner name</font></td>
+	<td><input type="text" name="oname" required>
+	</td>
+</tr>
+<tr>
+	<td><font color="white">mobile no</font></td>
+	<td><input type="text" name="mno" required>
+	</td>
+</tr>
+        <tr>
+            <td><font color="white">Upi code</font></td>
+	<td><input type="text" name="upi" required></td>
+   </tr>
+        <tr>
+	<td><font color="white">User name</font></td>
+	<td><input type="text" name="uname" required>
+	</td>
+</tr>
+<tr>
+	<td><font color="white">Password</font></td>
+	<td><input type="password" name="pass" required>
+	</td>
+</tr>
+
+	<td></td><td><input type="submit" name="sub" value="Sign up">
+	<input type="reset" name="reset" value="CANCEL"></td>
+</tr>
+     </table>
+
+</font>
+</form>
+{% endblock %}

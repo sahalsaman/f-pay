@@ -1,0 +1,30 @@
+
+{% extends 'temp/BANK.html' %}
+{% block base %}
+<center><h3>Manage Device</h3>
+<form action="#" method="POST" >
+    {% csrf_token %}
+	<table border="2">
+		<tr><th>Full name</th>
+            <th>Mobile No</th>
+            <th>Address</th>
+            <th>Account No</th>
+            <th>Balance</th>
+        </tr>
+         {% if objval %}
+        {% for obj in objval %}
+<tr>
+           <td style="color: red">{{ obj.device_name }}</td>
+           <td>{{ obj.serial_no }}</td>
+           <td>{{ obj.model_no }}</td>
+    <td> <a href="{% url 'approve1' idd=obj.did %}">Update</a>
+       <a href="{% url 'reject1' idd=obj.did %}">Remove</a></td>
+</tr>
+         {% endfor %}
+        {% endif %}
+     </table>
+
+
+</form>
+
+  {% endblock %}

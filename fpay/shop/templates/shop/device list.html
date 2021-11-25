@@ -1,0 +1,28 @@
+
+{% extends 'temp/SHOP.html' %}
+{% block base %}
+<center><h3>Device list</h3>
+<form action="#" method="POST" >
+    {% csrf_token %}
+	<table border="2">
+		<tr><th>Device name</th>
+
+            <th>model no</th>
+        </tr>
+         {% if objval %}
+        {% for obj in objval %}
+<tr>
+           <td>{{ obj.device_name }}</td>
+
+           <td>{{ obj.model_no }}</td>
+    <td> <a href="{% url 'devicerequest' idd=obj.did %}">buy</a>
+
+</tr>
+         {% endfor %}
+        {% endif %}
+     </table>
+
+
+</form>
+
+  {% endblock %}

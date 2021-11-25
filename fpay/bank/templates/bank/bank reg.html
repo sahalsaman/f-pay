@@ -1,0 +1,53 @@
+{% extends 'temp/index.html' %}
+{% block base %}
+
+<center><h3>Bank registration</h3>
+<form action="#" method="POST" >
+    {% csrf_token %}
+    <font color="black">
+	<table>
+		<tr>
+         <td><font color="white"> Bank name</font></td>
+         <td><input type="text" name="bank" required ></td>
+</tr>
+<tr>
+	<td><font color="white">ifsc Code</font></td>
+	<td><input type="text" name="ifsc" required>
+	</td>
+</tr>
+<tr>
+	<td><font color="white">adress</font></td>
+	<td><input type="text" name="add" required>
+	</td>
+</tr>
+<tr>
+	<td><font color="white">E-mail</font></td>
+	<td><input type="text" name="email" required>
+	</td>
+</tr>
+<tr>
+	<td><font color="white">Mob no</font></td>
+	<td><input type="text" name="mno" required>
+	</td>
+</tr>
+<tr>
+	<td><font color="white">User name</font></td>
+	<td><input type="text" name="uname" required>
+	</td>
+</tr>
+<tr>
+	<td><font color="white">Password</font></td>
+	<td><input type="password" name="pass" required>
+	</td>
+</tr>
+
+
+<tr>
+	<td></td><td><input type="submit" name="sub" value="Sign up">
+	<input type="reset" name="reset" value="CANCEL"></td>
+</tr>
+     </table>
+
+</font>
+</form>
+{% endblock %}

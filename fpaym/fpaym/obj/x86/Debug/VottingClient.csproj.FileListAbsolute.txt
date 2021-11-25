@@ -1,0 +1,40 @@
+E:\2020prj\VottingClient\VottingClient\bin\Debug\VottingClient.exe
+E:\2020prj\VottingClient\VottingClient\bin\Debug\VottingClient.pdb
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Form1.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Properties.Resources.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csproj.GenerateResource.Cache
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.exe
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.pdb
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_matching.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_main.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csprojResolveAssemblyReference.cache
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.exe
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.pdb
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\bin\Debug\VottingClient.exe
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\bin\Debug\VottingClient.pdb
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csprojResolveAssemblyReference.cache
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Form1.resources
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_main.resources
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_matching.resources
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Properties.Resources.resources
+E:\2020prj\MUKKAM_FINGER\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csproj.GenerateResource.Cache
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.exe
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.pdb
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\bin\Debug\VottingClient.exe
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\bin\Debug\VottingClient.pdb
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csprojResolveAssemblyReference.cache
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Form1.resources
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_main.resources
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_matching.resources
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Properties.Resources.resources
+C:\GM\Work From Home 2020-21\Others\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csproj.GenerateResource.Cache
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.exe
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.pdb
+I:\project 2021\VottingClient\VottingClient\bin\Debug\VottingClient.exe
+I:\project 2021\VottingClient\VottingClient\bin\Debug\VottingClient.pdb
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csprojResolveAssemblyReference.cache
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Form1.resources
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_main.resources
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_matching.resources
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Properties.Resources.resources
+I:\project 2021\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csproj.GenerateResource.Cache

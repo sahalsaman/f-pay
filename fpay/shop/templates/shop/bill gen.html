@@ -1,0 +1,32 @@
+{% extends 'temp/SHOP.html' %}
+{% block base %}
+
+<center><h3>Statment</h3>
+<form action="#" method="POST" >
+    {% csrf_token %}
+	<table border="2">
+		<tr>
+            <th>customer name</th>
+            <th>amount</th></tr>
+          {% if objval %}
+        {% for obj in objval %}
+<tr>
+
+           <td>{{ obj.user_name }}</td>
+           <td>+{{ obj.amount }}</td>
+</tr>
+         {% endfor %}
+        {% endif %}
+{#    <tr>#}
+{#          <th>Balance</th>#}
+{#        <td>#}
+{#        {{ objval.su }}#}
+{#        </td>#}
+{#    </tr>#}
+     </table>
+
+
+</form>
+</center>
+
+{% endblock %}

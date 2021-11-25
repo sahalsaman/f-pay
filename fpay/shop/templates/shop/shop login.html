@@ -1,0 +1,27 @@
+{% extends 'temp/SHOP.html' %}
+{% block base %}
+<center><h3>Shop Login</h3>
+
+<form action="#" method="POST" >
+	 {% csrf_token %}
+
+    <table>
+		<tr>
+         <td>Serial no</td>
+         <td><input type="text" name="serial" required ></td>
+</tr>
+<tr>
+	<td>PASSWORD</td>
+	<td><input type="PASSWORD" name="pass" required>
+	</td>
+</tr>
+<tr>
+	<td><input type="submit" name="sub" value="LOGIN"></td>
+	<td><input type="reset" name="reset" value="CANCEL"></td>
+</tr>
+     </table>
+
+
+</form>
+
+{% endblock %}

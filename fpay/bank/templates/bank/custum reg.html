@@ -1,0 +1,32 @@
+{% extends 'temp/BANK.html' %}
+{% block base %}
+
+<center><h3>Bank customer registration</h3>
+<form action="#" method="POST" >
+    {% csrf_token %}
+    <font color="black">
+	<table>
+
+<tr>
+	<td><font color="white">Account no</font></td>
+	<td><input type="text" name="acc" required>
+	</td>
+</tr>
+
+<tr>
+	<td><font color="white">Cash</font></td>
+	<td><input type="text" name="balance" required>
+	</td>
+</tr>
+
+
+<tr>
+	<td></td>
+	<td><input type="submit" name="sub" value="ADD">
+        <input type="reset" name="reset" value="CANCEL"></td>
+</tr>
+     </table>
+</font>
+
+</form>
+{% endblock %}

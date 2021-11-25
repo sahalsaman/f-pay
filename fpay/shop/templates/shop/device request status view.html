@@ -1,0 +1,30 @@
+{% extends 'temp/SHOP.html' %}
+{% block base %}
+
+<center><h3>Device Request staus view</h3>
+
+{% csrf_token %}
+	<table border="2">
+		<tr><th>Device name</th>
+            <th>serial no</th>
+            <th>model no</th>
+            <th>status</th>
+        </tr>
+        {% if objval %}
+        {% for obj in objval %}
+    <tr>
+           <td>{{ obj.d.device_name }}</td>
+           <td>{{ obj.d.serial_no }}</td>
+           <td>{{ obj.d.model_no }}</td>
+           <td>{{ obj.status }}</td>
+    </tr>
+
+             {% endfor %}
+        {% endif %}
+
+     </table>
+
+
+</form>
+    </center>
+  {% endblock %}

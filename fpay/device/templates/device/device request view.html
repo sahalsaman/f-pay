@@ -1,0 +1,35 @@
+{% extends 'temp/ADMIN.html' %}
+{% block base %}
+
+<center><h3>device request view</h3>
+<form action="#" method="POST" >
+    {% csrf_token %}
+	<table border="2">
+		<tr>
+            <th>Device id</th>
+            <th>serial no</th>
+            <th>model no</th>
+            <th>shop name</th>
+            <th>Status</th>
+{#            <th>date</th>#}
+
+        </tr>
+           {% if objval %}
+        {% for obj in objval %}
+<tr>
+          <td>{{ obj.d_id }}</td>
+           <td>{{ obj.d.serial_no }}</td>
+           <td>{{ obj.d.model_no }}</td>
+           <td>{{ obj.shop_name }}</td>
+{         <td>{{ obj.status}}</td>
+{#           <td>{{ obj.d. }}</td>#}
+    <td> <a href="{% url 'accept2' icc=obj.id %}">accept</a>
+        <a href="{% url 'block2' icc=obj.id %}">reject</a></td></tr>
+                {% endfor %}
+        {% endif %}
+     </table>
+
+
+</form>
+
+  {% endblock %}

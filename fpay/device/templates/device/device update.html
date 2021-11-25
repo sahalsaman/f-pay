@@ -1,0 +1,50 @@
+{% extends 'temp/ADMIN.html' %}
+{% block base %}
+<center><h3>Device update</h3>
+<form method="POST">
+
+{% csrf_token %}
+<font color="black">
+	<table>
+        {% if objval%}
+		<tr>
+         <td><font color="white">device name</font></td>
+         <td><input type="text" name="dname" required value="{{ objval.device_name }}" ></td>
+</tr>
+<tr>
+	<td><font color="white">model no</font></td>
+	<td><input type="text" name="mno" required value="{{ objval.model_no }}">
+	</td>
+</tr>
+
+<tr>
+	<td><font color="white">serial no</font></td>
+	<td><input type="text" name="sno" required value="{{ objval.serial_no }}">
+	</td>
+</tr>
+        {% endif %}
+<tr>
+	<td></td><td><input type="submit" name="sub" value="UPDATE">
+	<input type="reset" name="reset" value="CANCEL"></td>
+</tr>
+     </table>
+
+</font>
+</form>
+    {% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

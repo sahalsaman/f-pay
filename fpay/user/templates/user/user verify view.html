@@ -1,0 +1,31 @@
+{% extends 'temp/ADMIN.html' %}
+{% block base %}
+
+<center><h3>user verify</h3>
+<form action="#" method="POST" >
+    {% csrf_token %}
+	<table border="2">
+		<tr><th>user id</th>
+            <th>user name</th>
+            <th>adress</th>
+            <th>mobile no</th>
+            <th>verified status</tr>
+        </tr>
+         {% if objval %}
+        {% for obj in objval %}
+<tr>       <td>{{ obj.user_id }}</td>
+           <td>{{ obj.user_name }}</td>
+           <td>{{ obj.address }}</td>
+           <td>{{ obj.mob_no }}</td>
+           <td>{{ obj.status }}</td>
+    <td> <a href="{% url 'approve' idd=obj.user_id %}">Accept</a>
+     <a href="{% url 'reject' idd=obj.user_id %}">Reject</a>
+    </td>
+</tr>
+         {% endfor %}
+        {% endif %}
+     </table>
+
+
+</form>
+{% endblock %}

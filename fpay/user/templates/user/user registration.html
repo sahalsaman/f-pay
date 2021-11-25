@@ -1,0 +1,88 @@
+
+<html>
+<head>
+<style>
+
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 30em;
+  margin-right: 30em;
+  border-style: inset;
+  border-width: 1px;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 18%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=cancel] {
+  width: 17%;
+  background-color: #fd4141;
+  color: white;
+  text-align: center;
+  padding: 14px 5px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<center><br><br><br><br><br><br><br>
+<img src="/static/img/fpay logowc.png" align="center" width="285" height="180"><br><br>
+<hr><br>
+<div> <h2>REGISTRATION PAGE</h2>
+<form action="#" method="POST" >
+    {% csrf_token %}
+    <label for="fname">USER NSME</label>
+    <input type="text" id="fname" name="name" placeholder="Enter user name..">
+<br>
+    <label for="lname">Mobile No</label>
+    <input type="text" id="lname" name="pin" placeholder="Enter password..">
+  <br>
+    <label for="lname">Address</label>
+    <input type="text" id="lname" name="pin" placeholder="Enter password..">
+  <br>
+    <label for="lname">PASSWORD</label>
+    <input type="text" id="lname" name="pin" placeholder="Enter password..">
+  <br>
+    <input type="cancel" name="sub" value="Cancel">
+    <input type="submit" name="res" value="Submit">
+
+</form>
+</div>
+
+</center>
+</body>
+</html>
